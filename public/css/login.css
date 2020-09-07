@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  min-height: 100ch;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+header{
+	/*background-image: linear-gradient(to right, #81F781, #81BEF7, #F781F3);*/ /*verde azul rosa*/
+	background-image: linear-gradient(to right, #81BEF7, #F78181, #F781F3); /*azul vermelho rosa*/
+}
+
+.link_menu{
+	color: black;
+}
+
+.imagem_logo{
+	height: 65px;
+	padding: .1em;
+}
+
+.manuscrito_logo{
+	height: 13em;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.8em;
+}
+
+.imagem_login{
+	width: 18ch;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa_login{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 36ch;
+    margin-top: 5em;
+}
+
+.geral_login{
+	padding: 32px 48px 0px 48px;
+	border: 1px solid #EEE;
+}
+
+.botao_enviar{
+	background: #81BEF7;
+}
+
+.rodape_pag{
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+.redes_sociais a{
+	width: 35px;
+    height: 35px;
+    display: inline-block;
+    font-size: 0;
+   	margin-left: .25px;
+   	margin-right: .25px;
+}
+
+.redes_sociais li{
+	display: inline;
+}
+
+.facebook{
+	background-image: url(../img/facebook_icon.png);
+}
+
+.instagram{
+	background-image: url(../img/instagram_icon.png);
+}
+
+.linkedin{
+	background-image: url(../img/linkedin_icon.png);
+}
