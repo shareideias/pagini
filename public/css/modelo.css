@@ -1,0 +1,78 @@
+header{
+	/*background-image: linear-gradient(to right, #81F781, #81BEF7, #F781F3);*/ /*verde azul rosa*/
+	background-image: linear-gradient(to right, #81BEF7, #F78181, #F781F3); /*azul vermelho rosa*/
+}
+
+.link_menu{
+	color: black;
+}
+
+
+.manuscrito_logo{
+	height: 13em;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.8em;
+}
+
+
+h2{
+	text-align: center;
+}
+
+.sobrenos_p{
+	width: 65%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+ .par_news{
+ 	text-align: justify;
+ }
+
+ .news_card{
+ 	margin: 2em;
+ }
+
+.ler_mais{
+	width: 20%;
+	float: right;
+}
+
+.btn{
+	float: left;
+}
+
+.rodape_pag{
+	text-align: center;
+	margin-top: 6em;
+	margin-bottom: 1em;
+}
+
+.redes_sociais a{
+	width: 35px;
+    height: 35px;
+    display: inline-block;
+    font-size: 0;
+   	margin-left: .25px;
+   	margin-right: .25px;
+}
+
+.redes_sociais li{
+	display: inline;
+}
+
+.facebook{
+	background-image: url(../img/facebook_icon.png);
+}
+
+.instagram{
+	background-image: url(../img/instagram_icon.png);
+}
+
+.linkedin{
+	background-image: url(../img/linkedin_icon.png);
+}
