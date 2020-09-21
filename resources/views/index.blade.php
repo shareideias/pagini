@@ -37,7 +37,7 @@
 
       <!--cabeçalho-->
       <header>
-        @include('componente_navbar')
+        @include('components.componente_navbar')
       </header>
       <!--fim cabeçalho-->
 
