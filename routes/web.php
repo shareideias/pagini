@@ -15,18 +15,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
 Route::get('/cursos', function () {
     return view('cursos');
-});
+})->name('cursos');
 
 Route::get('/faq', function () {
     return view('FAQ');
-});
+})->name('faq');
 
 Route::get('/home', function () {
     return view('home');
-});
+})->name('home');
 
 Auth::routes();
