@@ -1,6 +1,6 @@
 <nav class="nav-wrapper transparent">
     <div class="container">
-      <a href="{{ route('index') }}" class="brand-logo"><img class="imagem_logo" alt="Logo da Share" src="../img/globo.png"></a>
+      <a href="{{ route('index') }}" class="brand-logo"><img class="imagem_logo" alt="Logo da Share" src="{{ asset('../img/globo.png') }}"></a>
       <a href="" class="sidenav-trigger" data-target = "mobile-menu">
         <i class="material-icons">menu</i>
       </a>
