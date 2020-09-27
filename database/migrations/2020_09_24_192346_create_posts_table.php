@@ -17,7 +17,7 @@ class CreatePostsTable extends Migration
             $table->id();
             $table->string('titulo');
             $table->string('html');
-            $table->integer('criadoPor');
+            $table->foreignId('criadoPor');//->constrained('gestores') quando criarmos a tabela
             $table->timestamps();
         });
     }
